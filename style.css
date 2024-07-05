@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(90deg, rgba(7,0,139,1) 0%, rgba(3,0,84,1) 39%, rgba(7,0,139,1) 100%, rgba(3,0,84,1) 100%);
+}
+.brand-title{
+    text-align: center;
+    padding: 15px 0;
+}
+.brand-title a{
+    color: rgb(255, 84, 218);
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.brand-title a:hover{
+    color: rgb(255, 0, 0);
+    transition: .5s;
+}
+.nav-items a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 500;
+    transition: 1s;
+}
+.nav-items a:hover{
+    background-color: gray;
+    margin: 0 50px;
+    border-radius: 5px;  
+}
+.nav-search{
+    text-align: center;
+    padding: 10px 0;
+}
+.search-bar input{
+    padding: 8px;
+    border-radius: 5px;  
+}
+.nav-search i{
+    color: black;
+    margin: 0 10px;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width:992px) {
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .brand-title{
+        float: left;
+    }
+    header{
+        height: 60px;
+    }
+    .nav-items{
+        float: left;
+        margin-top: 20px;
+        justify-items: center;
+    }
+    .nav-search{
+        float: right;
+    }
+    .nav-items a{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(187, 0, 0);
+        padding: 10px;
+        font-size: 18px;
+        font-family: roboto;
+        font-weight: 500;
+        transition: 1s;
+        display: inline;
+        justify-items: center;
+        
+    }
+    .nav-items a:hover{
+        margin: 0;
+        transform: scale(1.1);
+    }
+
+    /* For desktop: */
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
