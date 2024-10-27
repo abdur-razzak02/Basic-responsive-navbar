@@ -1,2 +1,2 @@
 ## Live link
-https://abdur-razzak02.github.io/Basic-responsive-navbar/
+[Responsive navbar live link/](https://responsive-simple-navbar.netlify.app/)
